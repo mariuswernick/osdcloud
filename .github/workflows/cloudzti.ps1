@@ -16,31 +16,8 @@ Start-Sleep -Seconds 5
 Install-Module OSD -Force
 Import-Module OSD -Force
 
-#Install AzAD
-Install-Module AzureAD -Force
-Import-Module AzureAD -Force
-
-#Install Az.Accounts
-Install-Module Az.Accounts -Force
-Import-Module Az.Accounts -Force
-
-#Install Az.KeyVault
-Install-Module Az.KeyVault -Force
-Import-Module Az.KeyVault -Force
-
-#Install Az.Resources
-Install-Module Az.Az.Resources -Force
-Import-Module Az.Az.Resources -Force
-
-#Install Az.Storage
-Install-Module Az.Storage -Force
-Import-Module Az.Storage -Force
-
-#Install Microsoft.Graph.DeviceManagement
-Install-Module Microsoft.Graph.DeviceManagement -Force
-Import-Module Microsoft.Graph.DeviceManagement -Force
-
-
+#Connect AzOSDCloud
+Connect-AzOSDCloud
 
 
 #Connect To AzureAD
