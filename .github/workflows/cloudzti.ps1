@@ -16,6 +16,9 @@ Start-Sleep -Seconds 5
 Install-Module OSD -Force
 Import-Module OSD -Force
 
+#import AzCloud functions
+iex (irm functions.osdcloud.com)
+
 #Connect AzOSDCloud
 Connect-AzOSDCloud
 
